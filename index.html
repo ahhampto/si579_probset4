@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery list</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<section>
+    <h1>Grocery list</h1>
+    <button id="show-only-veggies">Show only veggies</button>
+    <button id="display-all">Display all</button>
+    <ul id="grocery-list">
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Cheese</li>
+        <li class="veggies">Lettuce</li>
+    </ul>
+</section>
+
+<section>
+    <h1>Add new item</h1>
+    <article>
+        <label for="item-name">Item name</label>
+        <input type="text" id="item-name">
+    </article>
+    <article>
+        <label for="veggie">Veggie</label>
+        <input type="checkbox" id="veggie">
+    </article>
+    <button id="add-button">Add</button>
+    <button id="remove-button">Remove last item</button>
+</section>
+
+
+<script src = "myJS.js"></script>
+</body>
+</html>
